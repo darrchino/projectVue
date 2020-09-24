@@ -1,18 +1,20 @@
 <template>
     <div> 
-        <input v-model="nome" />
-        <button v-on: click="inserir"> Click </button>
+        <h2> <strong> Cadastro Pessoa </strong></h2>
+    <p>        <input v-model="nome" />
+        <button v-on:click= "inserir"> NOME </button> </p>
+       
     </div>
 </template>
 <script>
 export default {
     data: function () { 
         return {
-            nome: '',
+            nome: ''
         }
     },
     methods: {
-        inserir : function (){
+        inserir: function (){
             this.nome = ''
         }
     }
