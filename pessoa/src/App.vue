@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <!--<img alt="Vue logo" src="./assets/logo.png"> -->
+    <img alt="Vue logo"  src="./assets/cadastro.png" />
     <compPessoa/>
   </div>
 </template>
@@ -24,5 +24,7 @@ export default {
   text-align: inherit;
   color: #2c3e50;
   margin-top: 60px;
+  
+
 }
 </style>
